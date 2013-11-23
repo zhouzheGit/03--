@@ -7,23 +7,25 @@
 //
 
 #import "ViewController.h"
+#import "NSString+Helper.h"
 
-@interface ViewController ()
+@interface ViewController () <UITextFieldDelegate>
+
+@property (weak, nonatomic) IBOutlet UIImageView *qrImage;
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    // 1. 关闭键盘
+    [self.view endEditing:YES];
+    
+    // 2. 生成二维码
+    _qrImage.image = [textField.text createQRCode];
+    
+    return YES;
 }
 
 @end
