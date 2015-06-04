@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0500"
+   LastUpgradeVersion = "0630"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,23 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "187526CC1840802300648DD8"
-               BuildableName = "03-&#20108;&#32500;&#30721;&#29983;&#25104;.app"
-               BlueprintName = "03-&#20108;&#32500;&#30721;&#29983;&#25104;"
-               ReferencedContainer = "container:03-&#20108;&#32500;&#30721;&#29983;&#25104;.xcodeproj">
+               BuildableName = "03-&#x4e8c;&#x7ef4;&#x7801;&#x751f;&#x6210;.app"
+               BlueprintName = "03-&#x4e8c;&#x7ef4;&#x7801;&#x751f;&#x6210;"
+               ReferencedContainer = "container:03-&#x4e8c;&#x7ef4;&#x7801;&#x751f;&#x6210;.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "187526ED1840802300648DD8"
+               BuildableName = "03-&#x4e8c;&#x7ef4;&#x7801;&#x751f;&#x6210;Tests.xctest"
+               BlueprintName = "03-&#x4e8c;&#x7ef4;&#x7801;&#x751f;&#x6210;Tests"
+               ReferencedContainer = "container:03-&#x4e8c;&#x7ef4;&#x7801;&#x751f;&#x6210;.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "187526ED1840802300648DD8"
-               BuildableName = "03-&#20108;&#32500;&#30721;&#29983;&#25104;Tests.xctest"
-               BlueprintName = "03-&#20108;&#32500;&#30721;&#29983;&#25104;Tests"
-               ReferencedContainer = "container:03-&#20108;&#32500;&#30721;&#29983;&#25104;.xcodeproj">
+               BuildableName = "03-&#x4e8c;&#x7ef4;&#x7801;&#x751f;&#x6210;Tests.xctest"
+               BlueprintName = "03-&#x4e8c;&#x7ef4;&#x7801;&#x751f;&#x6210;Tests"
+               ReferencedContainer = "container:03-&#x4e8c;&#x7ef4;&#x7801;&#x751f;&#x6210;.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "187526CC1840802300648DD8"
-            BuildableName = "03-&#20108;&#32500;&#30721;&#29983;&#25104;.app"
-            BlueprintName = "03-&#20108;&#32500;&#30721;&#29983;&#25104;"
-            ReferencedContainer = "container:03-&#20108;&#32500;&#30721;&#29983;&#25104;.xcodeproj">
+            BuildableName = "03-&#x4e8c;&#x7ef4;&#x7801;&#x751f;&#x6210;.app"
+            BlueprintName = "03-&#x4e8c;&#x7ef4;&#x7801;&#x751f;&#x6210;"
+            ReferencedContainer = "container:03-&#x4e8c;&#x7ef4;&#x7801;&#x751f;&#x6210;.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -58,13 +72,14 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "187526CC1840802300648DD8"
-            BuildableName = "03-&#20108;&#32500;&#30721;&#29983;&#25104;.app"
-            BlueprintName = "03-&#20108;&#32500;&#30721;&#29983;&#25104;"
-            ReferencedContainer = "container:03-&#20108;&#32500;&#30721;&#29983;&#25104;.xcodeproj">
+            BuildableName = "03-&#x4e8c;&#x7ef4;&#x7801;&#x751f;&#x6210;.app"
+            BlueprintName = "03-&#x4e8c;&#x7ef4;&#x7801;&#x751f;&#x6210;"
+            ReferencedContainer = "container:03-&#x4e8c;&#x7ef4;&#x7801;&#x751f;&#x6210;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -76,13 +91,14 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "187526CC1840802300648DD8"
-            BuildableName = "03-&#20108;&#32500;&#30721;&#29983;&#25104;.app"
-            BlueprintName = "03-&#20108;&#32500;&#30721;&#29983;&#25104;"
-            ReferencedContainer = "container:03-&#20108;&#32500;&#30721;&#29983;&#25104;.xcodeproj">
+            BuildableName = "03-&#x4e8c;&#x7ef4;&#x7801;&#x751f;&#x6210;.app"
+            BlueprintName = "03-&#x4e8c;&#x7ef4;&#x7801;&#x751f;&#x6210;"
+            ReferencedContainer = "container:03-&#x4e8c;&#x7ef4;&#x7801;&#x751f;&#x6210;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
